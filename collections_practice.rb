@@ -46,6 +46,7 @@ def add_s(array)
   array.each_with_index do |ele, i|
     if i != 1 
       arr << ele + "s"
+      
     end
   end
   arr
