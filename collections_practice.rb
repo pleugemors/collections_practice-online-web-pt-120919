@@ -41,3 +41,10 @@ def sum_array(array)
   
 end
 
+def add_s(array)
+  array[0] += "s"
+  array[2..-1] += "s"
+  return array
+end
+
+
