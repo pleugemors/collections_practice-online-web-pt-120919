@@ -43,7 +43,12 @@ end
 
 def add_s(array)
   arr= []
-  array.each_with_index do ||
+  array.each_with_index do |ele, i|
+    if i != 1 
+      arr << ele + "s"
+    end
+  end
+  arr
 end
 
 
